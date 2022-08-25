@@ -4,75 +4,96 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Resume</title>
-
+   
+   <link rel="stylesheet" href="styles/style.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+   <title>Resume</title>
 </head>
 
-<body>
-   <div> <!--MAIN-->
-      <div> <!--header-->
-         <h1>Okhotskiy Oleksandr</h1>
-         <h2>Future Front-End_developer</h2>
-         <p>Main object to become a junior web developer in small term.
-            One of my strengths is the ability to clearly express my thoughts to colleagues, quickly learn new skills and put them into practice, punctuality, desire to develop in IT and do everything that necessary for this path.</p>
+<body class="main">
+   <Main class="main-content">
+      <div class="main-header"> <!-- Header-->
+         <h2 class="main-profession">Future Front-End Developer</p>
+         <h1 class="main-name">Okhotskiy Oleksandr</h1>
+         <p class="main-header-text">Main object to become a junior web developer in small term.
+            One of my strengths is the ability to clearly express my thoughts to colleagues, quickly learn new skills and put them into practice, punctuality, desire to develop in IT and do everything that necessary for this path. </p>
       </div>
-      <div> <!--Projects-->
-         <h4>Projects</h4>
-         <ol>
-            <li> <a href="FutureSite">FutureSite</a>________[ HTML, CSS ] </li>
-            <li> <a href="FutureSite">FutureSite</a>________[ JavaScript ]</li>
-         </ol>
+      <div class="main-projects"> <!-- projects-->
+         <h3 class="main-projects-title">Projects</h3>
+            <ol class="main-projects-myprojects">
+               <li class="main-projects-item"><a href="Future-project"> <span class="main-project-item-text">Future-project</span></a> __________[ <span class="main-project-item-languages">HTML5, CSS3 </span>  ]</li>
+               <li class="main-projects-item"><a href="Future-project"> <span class="main-project-item-text">Future-project</span></a> __________[ <span class="main-project-item-languages"> JavaScript </span>]</li> 
+            </ol>
       </div>
-      <div>
-         <h3>Work Experience</h3>
-         <h4>Sales Manager Onyx Agency</h4>
-         <p>March 2018 - May 2019</p>
-         <ul> <!--My responsibilities-->
+      <div class="main-work-experience"> <!--Work experience-->
+         <h3 class="work-experience-title">Work Experience</h3>
+         <h4 class="work-experience-professies">Sales Manager <span class="work-experience-company-name"> Onyx Agency</span></h4>
+         <p class="work-experience-term">March 2018 - May 2019</p>
+         <ul class="work-experience-information">
             <li>Managing organizational sales by developing a business plan that covers sales, revenue, and expense controls.</li>
             <li>Meeting planned sales goals.</li>
             <li>Coordinating with marketing on lead generation.</li>
             <li>Promoting the organization and products.</li>
             <li>Understand clients and how they relate to company products.</li>
          </ul>
+         
       </div>
-      <div>
-         <h3>Education</h3>
-         <h4>"Prydniprovska State Academy of Civil Engineering and Architecture"</h4>
-         <h6>Master Degree | Construction and Civil Engineering</h6>
-         <p> 2013 - 2018 | Dnepr, Ukraine</p>
+      <div class="work-experience-company2"> <!-- WORk 2-->
+         <h4 class="work-experience-professies"> Self-employment<span class="work-experience-company-name"> Selling and buying Hair</span></h4>
+         <p  class="work-experience-term">June 2019 - September 2021</p>
+         <ul  class="work-experience-information">
+            <li>Advertising to attract customers. </li>
+            <li>Ability to negotiate and bring deal to the final result.</li>
+            <li>Buy and sell over than 20 kilo of natural hair for wigs.</li>
+         </ul>
       </div>
-
+      <div class="education"> <!--EDUCATION-->   
+         <h3 class="education-title">Education</h3>      
+         <h4 class="education-university">National University of Radioelectronics</h4>
+         <h5 class="education-major">Management</h5>
+         <p class="education-term">September 2009 - June 2014 <span class="education-bracket">|</span>      Country</p>
+      </div>
+   </Main>
+   
+   <div class="sidebar"> <!--sidebar-->
+      <div class="main-image"> <!-- photo-->
+         <img src="/images/IMG_4683.jpg" alt="main-photo" width="370px" height="450px">
+      </div>
+      <div class="sidebar-contacts"> <!--contacts-->
+         <h3 class="sidebar-contacts-title">Contacts</h3>
+            <div class="sidebar-contacts-text">
+               <p>C: <a href="tel:+380934633122"><span class="sidebar-contacts-info">+380934633122</span></a></p>
+               <p>E: <a href="mailto:muller1996gogle@gmail.com"><span class="sidebar-contacts-info"> muller1996gogle@gmail.com</span></a></p>
+            </div>   
+      </div>
+      <div class="sidebar-tech"> <!--Tech-skills-->
+         <h3 class="sidebar-tech-title">Tech Skills</h3>
+            <ul class="sidebar-tech-list">
+               <li><span class="sidebar-tech-list-item">HTML5</span></li>
+               <li><span class="sidebar-tech-list-item">CSS3</span></li>
+               <li><span class="sidebar-tech-list-item">GIT</span></li>
+               <li><span class="sidebar-tech-list-item">JavaScript</span></li>
+            </ul>
+      </div>
+      <div class="soft-skills"> <!--soft skills-->
+         <h3 class="soft-skills-title">Soft Skills</h3>
+            <ul class="soft-skills-list">
+               <li><span class="soft-skills-list-item">Scrum</span></li>
+               <li><span class="soft-skills-list-item">Agile</span></li>
+               <li><span class="soft-skills-list-item">GTD</span></li>
+               <li><span class="soft-skills-list-item">Teamwork</span></li>
+            </ul>
+      </div>
+      <div class="languages"> <!--languages-->
+         <h3 class="Languages-title">Languages</h3>
+            <ul class="languages-list">
+               <li><span class="languages-list-item">Ukrainian - native</span></li>
+               <li><span class="languages-list-item">Russian - native</span></li>
+               <li><span class="languages-list-item">English - B1</span></li>
+            </ul>
+      </div>
    </div>
-   <aside> <!--aside-->
-      <div>
-         <img src="/images/IMG_4683.jpg" alt="main-photo">
-      </div>
-      <div> <!--contacts-->
-         <h4>Contacts</h4>
-         <p>tel. +380934633122</p>
-         <p>gmail: muller1996gogle@gmail.com</p>
-      </div>
-      <div>
-         <h4>Tech Skills</h4>
-         <ul> 
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>GIT</li>
-            <li>JavaScript</li>
-         </ul>
-      </div>
-      <div> <!--languages-->
-         <h4>Languages</h4>
-         <ul> 
-            <li>Ukrainian - native</li>
-            <li>Russian - native</li>
-            <li>English - B1</li>
-         </ul>
-      </div>
-   </aside>
 </body>
-
 </html>
