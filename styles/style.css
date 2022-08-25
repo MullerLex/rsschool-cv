@@ -8,7 +8,7 @@ body {
    flex-direction: row-reverse;
    background-color: #E5E5E5;
    width: 1200px;
-   height: 1319px;
+   height: 1250px;
    margin: 0 auto;
    box-shadow:  6px 6px 20px rgba(0, 0, 0, 0.1) ;
 }
@@ -24,7 +24,6 @@ body {
    margin-top: 20px;
    margin-left: 88px;
    margin-bottom: 100px;
-
 }
 
 .main-profession {
@@ -145,16 +144,8 @@ Line-height: 24px;
    margin-bottom: 50px;
 }
 
-
-.work-experience-company3{
-   width: 525px;
-   height: 150px;
-   margin-left: 88px;
-   margin-bottom: 45px;
-}
-
 .education {
-   width: 330px;
+   width: 500px;
    height: 115px;
    margin-left: 88px;
 
